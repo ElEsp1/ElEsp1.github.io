@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Elias</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">APTITUDES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Elias Espindola</h1>
+            <h2>Técnico Electrónico - UI/UX Developer</h2>
+            <div class="redes">
+                <a href="mailto:elias.espindola@hotmail.com"><i class="fa-regular fa-envelope"></i></a>
+                <a href="mailto:elias.espindola99@gmail.com"><i class="fa-brands fa-google"></i></a>
+                <a href="https://www.linkedin.com/in/eliasespindola00/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/elias.espindola.18"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/EliiEspindola"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Elias Espindola.</span> Soy un jovén de la localidad de General Rodriguez con ánimos de adquirir conocimientos nuevos orientados a la tecnología y con ánimos de emprender un mejor futuro laboral y personal.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            06-04-2000
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +54 9 11 3279-7469
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            elias.espindola@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            elesp1.github.io
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Defensa 2080, General Rodriguez, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Aptitudes</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Aptitudes Técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SketchUp</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Arduino</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Aptitudes Sociolaborales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Manejo y Control de Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Primaria</h4>
+                        <span class="casa">Intituto Padre FAHY</span>
+                        <span class="fecha">2004 - 2010</span>
+                        <p>Mis primeros pasos en una institución hasta mi último grado de la primaria fueron hechos en el colegio agrotécnico Padre Fahy</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Secundario Técnico</h4>
+                        <span class="casa">E.E.S.T. N°1 Javier Tapie</span>
+                        <span class="fecha">2011 - 2019</span>
+                        <p>Relicé todo mi secundario en el colegio superior secundario técnico Javier Tapie, ubicado en general rodriguez y recibido con Título de Técnico Electrónico, aprendiendo allí mis bases y primeros conceptos de la programación</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Carrera Actual</h4>
+                        <span class="casa">U.N.L.u</span>
+                        <span class="fecha">2020 - Actualidad</span>
+                        <p>Al finalizar mi secundario (con una pandemia de por medio) ingresé a la Licenciatura en Sistemas de Información en la Universidad Nacional de Lujan, adquierendo allí conocimiento más explicitos de la programación, administración y otros</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>hobby y primer empleo</h4>
+                        <span class="casa">Propio</span>
+                        <span class="fecha">2012 - Actual</span>
+                        <p>Mi primer hobby y trabajo fué y sigue siendo reparar, realizar mantenimientos, armar y configurar computadoras</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Pasantía</h4>
+                        <span class="casa">Lortnoc S.R.L.</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>Como el plan de estudio de mi secundario expresa, realicé 200 horas como mínimo de pasantías en la empresa Lortnoc S.R.L., armando y programanco PLC y tableros electricos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Adicional</h4>
+                        <span class="casa">Il Dolce y Supermercado Dandi</span>
+                        <span class="fecha">2017 - 2022</span>
+                        <p>Además de trbajos orientados a la especialidad lleve a cabo otros que me dieron experiencia y enseñansas de otro tipo, como venta al publico, atención al cliente y administración</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Mensaje">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Defensa 2080, General Rodriguez, Buenos Aires.
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: +54 9 11 3279-7469 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: elias.espindola@hotmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="mailto:elias.espindola@hotmail.com"><i class="fa-regular fa-envelope"></i></a>
+            <a href="mailto:elias.espindola99@gmail.com"><i class="fa-brands fa-google"></i></a>
+            <a href="https://www.linkedin.com/in/eliasespindola00/"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/elias.espindola.18"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/EliiEspindola"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
