@@ -32,6 +32,12 @@ html{
     color: #8f00f5;
     text-decoration: none;
 }
+
+.contenedor-header header .logo img{
+    width: 45wpx;
+    border: 2px #8f00f5;
+}
+
 .contenedor-header header ul{
     display: flex;
     list-style: none;
