@@ -505,6 +505,7 @@ html{
     height: 100%;
     text-align: center;
     background: linear-gradient(rgba(155, 0, 245, 0.8), rgba(155, 0, 245,.8));
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     justify-content: center;
